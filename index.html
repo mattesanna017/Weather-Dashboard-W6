@@ -24,18 +24,18 @@
       <aside class="col-12 col-md-4">
         <div class="card">
           <h3 class="card-title">Type the City</h3>
-          <form id="city-form" class="card-body">
-            <label class="form-label" for="cityname"></label>
-            <input name="cityname" id="cityname" type="text"  class="form-input" />
+          <form id="cityForm" class="card-body">
+            <label class="form-label" for="cityName"></label>
+            <input name="cityName" id="cityName" type="text"  class="form-input" />
             <button type="submit" class="btn">Search</button>
           </form>
         </div>
       </aside>
 
       <section class="col-12 col-md-8">
-        <div class="card hidden" id="current-weather-card">
-          <h2 class="card-title" id="weather-status"></h2>
-          <div class="card-body" id="current-weather"></div>
+        <div class="card hidden" id="currentWeatherCard">
+          <h2 class="card-title" id="weatherStatus"></h2>
+          <div class="card-body" id="currentWeather"></div>
         </div>
       </section>
 
@@ -46,16 +46,16 @@
     <div class="flex-row justify-space-between col-12">
  
       <aside class="col-12 col-md-4" id="search">
-        <div class="card" id="history">
+        <div class="card" id="historyCard">
           <h3 class="card-title ">Previous City Searched</h3>
-          <div class="card-body" id="history-buttons"></div>
+          <div class="card-body" id="historyButton"></div>
         </div>
       </aside>
 
       <section class="col-12 col-md-8">
-        <div class="card hidden" id="five-day-card">
+        <div class="card hidden" id="fiveDayCard">
           <h2 class="card-title" id="five-day-head">Forecast for the next 5 days</h2>
-          <div class="card-body flex-row justify-space-around" id="five-day-body">
+          <div class="card-body flex-row justify-space-around" id="fiveDay">
           </div>
         </div>
       </section>
