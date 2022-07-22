@@ -39,6 +39,31 @@ font-size: 1rem;
  margin: 5px 5px;
 }
 
+.list-group {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .list-item:hover {
+    background-color: var(--dark);
+  }
+  
+  .status-icon {
+    padding: 2px 5px;
+    margin: 0 5px;
+    background-color: rgba(255,255,255, 1);
+    border-radius: var(--border-radius);
+  }
+
 /* HEIGHT / WIDTH UTILS */
  .min-100-vh {
     min-height: 100vh;
